@@ -1,6 +1,6 @@
 from preprocess_seroetr import utils
 
-__version__="0.0.2"
+__version__="0.0.3"
 
 def get_word_counts(x):
 	return utils._get_word_counts(x)
@@ -51,19 +51,19 @@ def remove_html_tags(x):
 	return utils._remove_html_tags(x)
 
 def remove_accented_chars(x):
-return utils._remove_accented_chars(x)
+	return utils._remove_accented_chars(x)
 
 def remove_stopwords(x):
-return utils._remove_stopwords(x)
+	return utils._remove_stopwords(x)
 
 def make_base(x):
-return utils._make_base(x)
+	return utils._make_base(x)
 
 def remove_common_words(x, n=20):
-return utils._remove_common_words(x, n)
+	return utils._remove_common_words(x, n)
 
 def remove_rare_words(x, n=20):
-return utils._remove_rare_words(x, n)
+	return utils._remove_rare_words(x, n)
 
 def spelling_correction(x):
-return utils._spelling_correction(x)
+	return utils._spelling_correction(x)

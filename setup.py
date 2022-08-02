@@ -5,7 +5,7 @@ with open("README.md","r") as file:
 
 setuptools.setup(
 	name="preprocess_seroetr",# this should be unique
-	version = "0.0.2",
+	version = "0.0.3",
 	author = "Serhat Dinleyen",
 	author_email = "eemserhatdinleyen@gmail.com",
 	description = " This is preprocessing package",
