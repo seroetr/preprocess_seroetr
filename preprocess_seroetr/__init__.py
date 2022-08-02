@@ -1,6 +1,6 @@
 from preprocess_seroetr import utils
 
-__version__="0.0.3"
+__version__="0.0.4"
 
 def get_word_counts(x):
 	return utils._get_word_counts(x)
@@ -59,11 +59,14 @@ def remove_stopwords(x):
 def make_base(x):
 	return utils._make_base(x)
 
-def remove_common_words(x, n=20):
-	return utils._remove_common_words(x, n)
+def get_value_counts(df, col):
+	return utils._get_value_counts(df, col)
 
-def remove_rare_words(x, n=20):
-	return utils._remove_rare_words(x, n)
+def remove_common_words(x, freq, n=20):
+	return utils._remove_common_words(x, freq, n)
+
+def remove_rare_words(x, freq, n=20):
+	return utils._remove_rare_words(x, freq, n)
 
 def spelling_correction(x):
 	return utils._spelling_correction(x)
