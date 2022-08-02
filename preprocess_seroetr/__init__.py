@@ -1,6 +1,6 @@
 from preprocess_seroetr import utils
 
-__version__="0.0.1"
+__version__="0.0.2"
 
 def get_word_counts(x):
 	return utils._get_word_counts(x)
@@ -23,7 +23,7 @@ def get_mentions_counts(x):
 def get_digit_counts(x):
 	return utils._get_digit_counts(x)(x)
 
-def get_mentions_counts(x)(:
+def get_mentions_counts(x):
 	return utils._get_mentions_counts(x)
 
 def get_uppercase_counts(x):
@@ -60,10 +60,10 @@ def make_base(x):
 return utils._make_base(x)
 
 def remove_common_words(x, n=20):
-return utils._remove_common_words(x, n=20)
+return utils._remove_common_words(x, n)
 
 def remove_rare_words(x, n=20):
-return utils._remove_rare_words(x, n=20)
+return utils._remove_rare_words(x, n)
 
 def spelling_correction(x):
 return utils._spelling_correction(x)
