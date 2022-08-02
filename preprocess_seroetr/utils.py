@@ -20,7 +20,7 @@ def _get_word_counts(x):
 def _get_char_counts(x):
 	s=x.split()
 	x="".join(s)
-	return len(s)
+	return len(x)
 
 def _get_average_word_len(x):
 	count = _get_char_counts(x) / _get_word_counts(x)
