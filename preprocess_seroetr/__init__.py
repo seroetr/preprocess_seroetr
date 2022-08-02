@@ -1,15 +1,15 @@
 from preprocess_seroetr import utils
 
-__version__="0.0.4"
+__version__="0.0.5"
 
 def get_word_counts(x):
 	return utils._get_word_counts(x)
 
 def get_char_counts(x):
-	return utils._get_char_counts(x)(x)
+	return utils._get_char_counts(x)
 
 def get_average_word_len(x):
-	return utils._get_average_word_len(x)(x)
+	return utils._get_average_word_len(x)
 
 def get_stopwords_counts(x):
 	return utils._get_stopwords_counts(x)
@@ -21,7 +21,7 @@ def get_mentions_counts(x):
 	return utils._get_mentions_counts(x)
 
 def get_digit_counts(x):
-	return utils._get_digit_counts(x)(x)
+	return utils._get_digit_counts(x)
 
 def get_mentions_counts(x):
 	return utils._get_mentions_counts(x)
