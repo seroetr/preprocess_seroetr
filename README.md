@@ -9,3 +9,8 @@ This python package is prepared by Serhat Dinleyen
 Uninstall
 
 `pip uninstall preprocess_seroetr`
+
+#### Before use preprocess_seroetr, install spacy model for jupyter notebook 
+`!python -m spacy download en_core_web_sm` 
+
+#### The package "preprocess_seroetr" only supports english language for text cleaning and preprocessing
