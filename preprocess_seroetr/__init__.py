@@ -1,6 +1,6 @@
 from preprocess_seroetr import utils
 
-__version__="0.0.6"
+__version__="0.0.7"
 
 def get_word_counts(x):
 	return utils._get_word_counts(x)
@@ -23,9 +23,6 @@ def get_mentions_counts(x):
 def get_digit_counts(x):
 	return utils._get_digit_counts(x)
 
-def get_mentions_counts(x):
-	return utils._get_mentions_counts(x)
-
 def get_uppercase_counts(x):
 	return utils._get_uppercase_counts(x)
 
@@ -34,6 +31,9 @@ def get_cont_to_exp(x):
 
 def get_emails(x):
 	return utils._get_emails(x)
+
+def remove_emails(x):
+	return utils._remove_emails(x)
 
 def get_urls(x):
 	return utils._get_urls(x)
