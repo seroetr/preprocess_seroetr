@@ -208,4 +208,4 @@ def _remove_rare_words(x, freq, n=20):
 
 def _spelling_correction(x):
 	x = TextBlob(x).correct()
-	return
+	return x

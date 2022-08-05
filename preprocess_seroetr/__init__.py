@@ -1,6 +1,6 @@
 from preprocess_seroetr import utils
 
-__version__="0.0.7"
+__version__="0.0.8"
 
 def get_word_counts(x):
 	return utils._get_word_counts(x)
